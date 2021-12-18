@@ -1,0 +1,4 @@
+@echo off
+del /s /q "C:\Users\abc\Desktop\Demo\d1\*.*"
+for /d %%p in ("C:\Users\abc\Desktop\Demo\d1\*.*") do rmdir "%%p" /s /q
+exit
